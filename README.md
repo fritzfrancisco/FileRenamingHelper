@@ -13,9 +13,9 @@ The script is designed to iterate over all images found through the ```input_fil
 
 2. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
 
-3. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```environment.yaml``` file and the following command to do so:
+3. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
 
-<p style="text-align: center;"><code>conda create -f /path/to/environment.yaml</code></p>
+<p style="text-align: center;"><code>create -n filecopy -c conda-forge python=3.11 pandas numpy pip matplotlib glob2 opencv</code></p>
 
 4. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
@@ -38,7 +38,7 @@ The script is designed to iterate over all images found through the ```input_fil
 
 <p style="text-align: center;"><code>cd /path/to/location/of/FileRenamingHelper.ipynb</code><br>
 <br>
-<code>conda activate nameofyourenvironment</code><br>
+<code>conda activate filecopy</code><br>
 <br>
 <code>jupyter notebook</code></p>
 
