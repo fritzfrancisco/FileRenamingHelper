@@ -8,7 +8,7 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 File name convention is:
 ```RBVVV_WWWW_RankX_YYYY_ZZZ.FFF```
-Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name containing the image*** (ideally the date collected), ```X``` is the defined ***Rank***, ```YYYY``` is the ***image name as given by the camera or before renaming***, ```ZZZ``` is a ***continuous index*** given to each image when renaming and copying and ```FFF``` is the same ***file extension*** as the original image file.
+Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name containing the image*** (ideally the date collected), ```X``` is the defined ***Rank***, ```YYYY``` is the ***image name as given by the camera or before renaming***, ```ZZZ``` is a ***continuous image index*** given to each image when renaming and copying and ```FFF``` is the same ***file extension*** as the original image file.
 
 ## Installation
 
@@ -61,9 +61,13 @@ Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name contai
 
 ## Usage
 
-1. Open [Jupyter Notebook](https://jupyter.org/) following the instructions in the installation section. Update ```input_file_pattern``` and ```output_dir``` to match your requirements in Cell 2 and run it. Be sure to make sure to account for differences between Unix and Windows and ideally not having blank spaces in filenames! I would recommend using only '/' in all file paths, as the script should account for it. 
+1. Open [Jupyter Notebook](https://jupyter.org/) following the instructions in the installation section. Update ```input_file_pattern``` and ```output_dir``` to match your requirements in Cell 2 and run it. Be sure to make sure to account for differences between Unix and Windows and ideally not having blank spaces in filenames! I would recommend using only '/' in all file paths, as the script should account for it. Note, if the ```output_dir``` does not exist yet it will be created by running Cell 2.
 
-2. Run Cell 3, which should display an image and open an input field.
+2. Run Cells 1-2 to import required libraries and set corresponding path variables.
+ 
+3. Run Cell 3, which should start displaing an image and open an input field. Input the corresponding values and press ```Enter``` to confirm. If you make a mistake the easiest way to undo it is to rename the last mistakable labeled file manually and changing the values for ```Tag``` and ```Rank``` on the next image, as they will be updated and kept this way.
+
+4. Lastly, if you want to stop and continue at a later point in time, you can do so. Just keep track of the continuous image index and change the ```start_file``` variable to the number you want to continue on. This does not work across directories, since when you change the directory the number of images changes and everything should be started from a fresh session!
 
 ## Note
 Additional notebooks are supplied for image rectification and camera calibration which are not further explained in this README.  
