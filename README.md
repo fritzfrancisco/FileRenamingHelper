@@ -23,13 +23,15 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 5. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
-6. Install ```Code Runner``` Extension by going to the Extension Menu on the right. Type ```Code Runner``` into the search bar and install it. Once finished installing press ```CTRL + ,``` and type ```code runner``` to locate it. Scroll down and check on ```Code-runner: Run In Terminal```.
+6. Install ```Python``` support through the Extension Menu on the right. Open the menue and type ```python``` the first extension given should be the correct one to install, for Python support in VS Code.
 
-7. In Visual Studio Code, select interpreter by pressing ```CTRL + SHIFT + P``` > Python: Select Interpreter > ```ENTER``` and selecting the ```conda``` environment that was just created. It should be named ```filecopy```.
+7. Install ```Code Runner``` Extension by going to the Extension Menu on the right. Type ```Code Runner``` into the search bar and install it. Once finished installing press ```CTRL + ,``` and type ```code runner``` to locate it. Scroll down and check on ```Code-runner: Run In Terminal```.
 
-8. Now we can open the [Jupyter Notebook](https://jupyter.org/) ```FileRenamingHelper.ipynb``` > File > Open File... > Navigate to the designated file. If the ```conda``` environment was set correctly the name of it should appear in the bottom right, when opening the notebook.
+8. In Visual Studio Code, select interpreter by pressing ```CTRL + SHIFT + P``` > Python: Select Interpreter > ```ENTER``` and selecting the ```conda``` environment that was just created. It should be named ```filecopy```.
 
-9. Run first cell to import all required packages. This is done by either clicking the play symbol in front of it or selecting it and pressing ```Super + ENTER```. Follow any pop-ups to install further requirements for Visual Studio Code.
+9. Now we can open the [Jupyter Notebook](https://jupyter.org/) ```FileRenamingHelper.ipynb``` > File > Open File... > Navigate to the designated file. If the ```conda``` environment was set correctly the name of it should appear in the bottom right, when opening the notebook.
+
+10. Run first cell to import all required packages. This is done by either clicking the play symbol in front of it or selecting it and pressing ```Super + ENTER```. Follow any pop-ups to install further requirements for Visual Studio Code.
 
 
 ### 2. Using basic Jupyter Notebook
