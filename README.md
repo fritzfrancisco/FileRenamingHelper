@@ -3,7 +3,8 @@
 ## Functionality 
 
 The script is designed to iterate over all images found through the ```input_file_pattern```, giving three input options for each image. Note that the images are sorted prior to being displayed, meaning that they should be displayed in the order in which they were taken.  
- The first user input defines ```Tag``` which should be the tag associated with the image. The second is ```Rank``` which defines the rank of the individual and the third is ```save``` which defines whether the image should be copied and renamed to the ```output_dir```. The input variables remain until being changed meaning that they don't have to be changed if they stay the same ("if you have multiple images from the same Tag, Rank that should be saved"). Please note that the folder name of the directory containing the images is used to define the date in the copied filename.
+
+The first user input defines ```Tag``` which should be the tag associated with the image. The second is ```Rank``` which defines the rank of the individual and the third is ```save``` which defines whether the image should be copied and renamed to the ```output_dir```. The input variables remain until being changed meaning that they don't have to be changed if they stay the same ("if you have multiple images from the same Tag, Rank that should be saved"). Please note that the folder name of the directory containing the images is used to define the date in the copied filename.
 
 ## Installation
 
@@ -50,4 +51,5 @@ The script is designed to iterate over all images found through the ```input_fil
 
 ## Note
 Additional notebooks are supplied for image rectification and camera calibration which are not further explained in this README.  
+
 Please contact [Fritz A. Francisco](mailto:fritz.a.francisco@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) with any further information, requests of suggestions. 
