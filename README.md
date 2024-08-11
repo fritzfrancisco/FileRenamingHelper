@@ -23,7 +23,7 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 5. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
-6. Install ```Code Runner``` Extension by going to File > Preferences > Settings. Typ ```Code Runner``` into the search bar and install it. Scroll down and check on ```Code-runner: Run In Terminal```. Alternatively you can select it through the Extensions menu on the left side of the screen.
+6. Install ```Code Runner``` Extension by going to the Extension Menu on the right. Type ```Code Runner``` into the search bar and install it. Once finished installing press ```CTRL + ,``` and type ```code runner``` to locate it. Scroll down and check on ```Code-runner: Run In Terminal```.
 
 7. Select interpreter by pressing ```CTRL + SHIFT + P``` > Python: Select Interpreter > ```ENTER``` and selecting the ```conda``` environment that was just created. It should be named ```filecopy```.
 
