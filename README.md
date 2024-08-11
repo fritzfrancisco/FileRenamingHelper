@@ -47,3 +47,7 @@ The script is designed to iterate over all images found through the ```input_fil
 1. Open [Jupyter Notebook](https://jupyter.org/) following the instructions in the installation section. Update ```input_file_pattern``` and ```output_dir``` to match your requirements in Cell 2 and run it. 
 
 2. Run Cell 3, which should display an image and open an input field.
+
+## Note
+Additional notebooks are supplied for image rectification and camera calibration which are not further explained in this README.  
+Please contact [Fritz A. Francisco](mailto:fritz.a.francisco@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) with any further information, requests of suggestions. 
