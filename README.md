@@ -10,23 +10,26 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 ### 1. Using Visual Studio Code <font style="font-weight: 100">[Recommended]</font>
 
-1. [Download](https://code.visualstudio.com/download) and [install](https://code.visualstudio.com/docs/getstarted/introvideos) Visual Studio Code following the given instructions on their website.
+1. Download this repository by clicking on the green ```Code``` button and selecting "Download ZIP" at the top left of the repository page. Alternatively you can run the following command in a terminal:  
+<p style="text-align: center;"><code>git clone https://github.com/fritzfrancisco/FileRenamingHelper.git</code></p>
+  
+2. [Download](https://code.visualstudio.com/download) and [install](https://code.visualstudio.com/docs/getstarted/introvideos) Visual Studio Code following the given instructions on their website.
 
-2. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
+3. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
 
-3. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
+4. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
 
 <p style="text-align: center;"><code>create -n filecopy -c conda-forge python=3.11 pandas numpy pip matplotlib glob2 opencv</code></p>
 
-4. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
+5. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
-5. Install ```Code Runner``` Extension by going to File > Preferences > Settings. Typ ```Code Runner``` into the search bar and install it. Scroll down and check on ```Code-runner: Run In Terminal```. Alternatively you can select it through the Extensions menu on the left side of the screen.
+6. Install ```Code Runner``` Extension by going to File > Preferences > Settings. Typ ```Code Runner``` into the search bar and install it. Scroll down and check on ```Code-runner: Run In Terminal```. Alternatively you can select it through the Extensions menu on the left side of the screen.
 
-6. Select interpreter by pressing ```CTRL + SHIFT + P``` > Python: Select Interpreter > ```ENTER``` and selecting the ```conda``` environment that was just created. It should be named ```filecopy```.
+7. Select interpreter by pressing ```CTRL + SHIFT + P``` > Python: Select Interpreter > ```ENTER``` and selecting the ```conda``` environment that was just created. It should be named ```filecopy```.
 
-7. Now we can open the [Jupyter Notebook](https://jupyter.org/) ```FileRenamingHelper.ipynb``` > File > Open File... > Navigate to the designated file. If the ```conda``` environment was set correctly the name of it should appear in the bottom right, when opening the notebook.
+8. Now we can open the [Jupyter Notebook](https://jupyter.org/) ```FileRenamingHelper.ipynb``` > File > Open File... > Navigate to the designated file. If the ```conda``` environment was set correctly the name of it should appear in the bottom right, when opening the notebook.
 
-8. Run first cell to import all required packages. This is done by either clicking the play symbol in front of it or selecting it and pressing ```Super + ENTER```. Follow any pop-ups to install further requirements for Visual Studio Code.
+9. Run first cell to import all required packages. This is done by either clicking the play symbol in front of it or selecting it and pressing ```Super + ENTER```. Follow any pop-ups to install further requirements for Visual Studio Code.
 
 
 ### 2. Using basic Jupyter Notebook
