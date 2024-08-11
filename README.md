@@ -19,7 +19,7 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 4. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
 
-<p style="text-align: center;"><code>create -n filecopy -c conda-forge python=3.11 pandas numpy pip matplotlib glob2 opencv</code></p>
+<p style="text-align: center;"><code>conda create -n filecopy -c conda-forge python=3.11 pandas numpy pip matplotlib glob2 opencv</code></p>
 
 5. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
