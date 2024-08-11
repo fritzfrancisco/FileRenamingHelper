@@ -50,7 +50,7 @@ The first user input defines ```Tag``` which should be the tag associated with t
 <p style="text-align: center;"><code>conda install conda-forge::jupyterlab</p></code></p>
     
 5. Open [Jupyter Notebook](https://jupyter.org/) by running: 
-<p style="text-align: center;"><code>cd /path/to/location/of/FileRenamingHelper.ipynb</code><br>
+<p style="text-align: center;"><code>cd /path/to/directory/containing/FileRenamingHelper/notebook</code><br>
 <br>
 <code>jupyter lab</code></p>
 
