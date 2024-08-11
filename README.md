@@ -50,7 +50,7 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 ## Usage
 
-1. Open [Jupyter Notebook](https://jupyter.org/) following the instructions in the installation section. Update ```input_file_pattern``` and ```output_dir``` to match your requirements in Cell 2 and run it. 
+1. Open [Jupyter Notebook](https://jupyter.org/) following the instructions in the installation section. Update ```input_file_pattern``` and ```output_dir``` to match your requirements in Cell 2 and run it. Be sure to make sure to account for differences between Unix and Windows and ideally not having blank spaces in filenames!
 
 2. Run Cell 3, which should display an image and open an input field.
 
