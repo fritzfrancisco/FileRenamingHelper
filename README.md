@@ -40,13 +40,20 @@ The first user input defines ```Tag``` which should be the tag associated with t
 
 2. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. You can alternatively use the supplied ```environment.yaml``` file and the following command to do so:
 
-3. Activate ```conda``` environment and open [Jupyter Notebook](https://jupyter.org/) by opening a terminal (Linux, Mac OS) or Anaconda Prompt (Windows) and typing:
+3. Activate ```conda``` environment by opening a terminal (Linux, Mac OS) or Anaconda Prompt (Windows) and typing:
 
+<p style="text-align: center;">
+<code>conda activate filecopy</code>
+</p>
+
+4. Install [Jupyter Lab](https://anaconda.org/conda-forge/jupyterlab) by running:
+<p style="text-align: center;"><code>conda install conda-forge::jupyterlab</p></code></p>
+    
+5. Open [Jupyter Notebook](https://jupyter.org/) by running: 
 <p style="text-align: center;"><code>cd /path/to/location/of/FileRenamingHelper.ipynb</code><br>
 <br>
-<code>conda activate filecopy</code><br>
-<br>
-<code>jupyter notebook</code></p>
+<code>jupyter lab</code></p>
+
 
 ## Usage
 
