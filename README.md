@@ -21,7 +21,7 @@ Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name contai
 
 3. [Install Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/) (Recommemded) or Anaconda to have access to ```conda``` utilities. Further information is also available [here](http://fritzfrancisco.thekaolab.com/assets/content/pdf/python_setup_guide_22092020.pdf).
 
-4. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using a environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
+4. Create ```conda``` environment following the instructions given [here](https://code.visualstudio.com/docs/python/environments), specifically under "Create a conda environment in the terminal". We will be using an environment named ```filecopy``` in the following, but feel free to name it anything you wish and can remember. This is the command to do so:
 
 <p style="text-align: center;"><code>conda create -n filecopy -c conda-forge python=3.11 pandas numpy pip matplotlib glob2 opencv</code></p>
 
