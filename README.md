@@ -27,7 +27,7 @@ Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name contai
 
 5. Open Visual Studio Code. If the bottom left says "Restricted" click on it and set the mode to "Trust".
 
-6. Install ```Python``` support through the Extension Menu on the right. Open the menue and type ```python``` the first extension given should be the correct one to install, for Python support in VS Code.
+6. Install ```Python``` support through the Extension Menu on the right. Open the menu and type ```python``` the first extension given should be the correct one to install, for Python support in VS Code.
 
 7. Install ```Code Runner``` Extension by going to the Extension Menu on the right. Type ```Code Runner``` into the search bar and install it. Once finished installing press ```CTRL + ,``` and type ```code runner``` to locate it. Scroll down and check on ```Code-runner: Run In Terminal```.
 
