@@ -72,4 +72,4 @@ Where ```VVV``` is the ***Tag number***, ```WWWW``` is the ***folder name contai
 ## Note
 Additional notebooks are supplied for image rectification and camera calibration which are not further explained in this README.  
 
-Please contact [Fritz A. Francisco](mailto:fritz.a.francisco@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) with any further information, requests, compaints or suggestions. 
+Please contact [Fritz A. Francisco](mailto:fritz.a.francisco@gmail.com?subject=[GitHub]%20Source%20Han%20Sans) with any further information, requests, complaints or suggestions. 
